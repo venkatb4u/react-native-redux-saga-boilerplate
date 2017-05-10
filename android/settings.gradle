@@ -1,0 +1,3 @@
+rootProject.name = 'rnReduxSagaBoilerplate'
+
+include ':app'

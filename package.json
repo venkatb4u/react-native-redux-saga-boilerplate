@@ -1,0 +1,27 @@
+{
+	"name": "rnReduxSagaBoilerplate",
+	"version": "1.0.0",
+  	"description": "A complete ready-to-kickstart kind boilerplate for React-Native app with redux, redux-saga setup.",
+	"private": true,
+	"author": "Venkat <venkat.crescentian@gmail.com>",
+	"main": "index.js",
+  	"repository": "git@github.com:venkatb4u/react-native-redux-saga-boilerplate.git",
+  	"license": "MIT",
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.0.0-alpha.6",
+		"react-native": "0.44.0"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"jest": "20.0.0",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
